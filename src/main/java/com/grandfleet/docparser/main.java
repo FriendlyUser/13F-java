@@ -1,5 +1,3 @@
-// package com.grandfleet.docparser
-
 package com.grandfleet.docparser;
 import java.util.EnumSet;
 import java.util.HashMap;
