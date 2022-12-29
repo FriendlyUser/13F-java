@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 import java.io.File;
+import java.io.*;
 import java.lang.Object;
 import org.xml.sax.*;
 import org.xml.sax.helpers.*;
@@ -123,7 +124,7 @@ public class DocParser {
                 }
             }
         }
-    } catch (FileNotFoundException e) {
+    } catch (Exception e) {
         e.printStackTrace();
     }
     return parsedData;
